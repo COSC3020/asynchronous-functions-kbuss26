@@ -27,11 +27,11 @@ your answer, including your reasoning, to this markdown file.
 The worst-case scenario is beyond the base case: n > 0. In this case, we
 are splitting each count into a different process with an array of size $n$ .
 I'm going to assume that the parallel "async" library implements parallel functionality
-such that it guarantees a $\Theta(T_1(n)/P + T_\infin(n))$ runtime. This is derived
+such that it guarantees a $\Theta(T_1(n)/P + T_\inf(n))$ runtime. This is derived
 from the fact that we need to do at least $T(n)/P$ work for P processors and also
 from the fact that we do not have an infinite amount of processors. Given that the array
 size is $n$, we can say that the runtime is $\Theta(n/P + \log{n})$ alongside other
-constant factors, given the span is $T_\infin(n) \in \Theta(\log{n})$ . This overall
+constant factors, given the span is $T{_\inf}(n) \in \Theta(\log{n})$ . This overall
 causes the runtime complexity to exist as $T(n) \in \Theta(n/P + \log{n})$ .
 
 ### Sources
