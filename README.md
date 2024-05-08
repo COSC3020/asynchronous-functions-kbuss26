@@ -37,3 +37,4 @@ causes the runtime complexity to exist as $T(n) \in \Theta(n/P + \log{n})$ .
 ### Sources
 - https://uwyo.instructure.com/courses/583691/files/folder/slides?preview=79755874
 - https://caolan.github.io/async/v3/docs.html
+- https://github.com/COSC3020/dynamic-euler-kbuss26 - main.yml (reused), test code base
